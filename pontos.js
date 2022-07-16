@@ -11,6 +11,7 @@ function pontos(){
 function marcouPonto(){
   if(yAtor1 < 10){
     ponto += 1;
+    pontoPraGrifinoria.play();
     yAtor1 = 558;
     bateu = false;
   }

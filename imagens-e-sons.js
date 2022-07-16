@@ -1,3 +1,7 @@
+//variáveis dos sons
+let deuRuim;
+let pontoPraGrifinoria;
+
 //variáveis das imagens utilizadas no jogo
 let imagemEstrada;
 let imagemCarro1;
@@ -10,6 +14,8 @@ let imagemAtor1;
 
 //carregamento das imagens no programa
 function preload(){
+  deuRuim = loadSound("sons/colidiu.mp3");
+  pontoPraGrifinoria = loadSound("sons/pontos.wav");
   imagemEstrada = loadImage("imagens/estrada.png");
   imagemCarro1 = loadImage("imagens/carro-1.png");
   imagemCarro2 = loadImage("imagens/carro-2.png");

@@ -26,6 +26,7 @@ function colidiu(){
   for(let i = 0; i < xCarros.length; i += 1){
     if(xAtor1 + larguraAtor1 > xCarros[i] && xAtor1 < xCarros[i] + lC && yAtor1 + alturaAtor1 > yCarros[i] && yAtor1 < yCarros[i] + aC){
       yAtor1 = 558;
+      deuRuim.play();
       bateu = true;
     }
   }
